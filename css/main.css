@@ -16,10 +16,19 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    text-decoration: none;
     letter-spacing: 0.06em;
+    /* align-items: center; */
+}
+
+.buttom {
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto; 
+    min-width: 200px;
+    text-align: center;
 }
 
 .section-title {

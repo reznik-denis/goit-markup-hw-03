@@ -3,7 +3,6 @@
 }
 
 .hero .hero-title {
-    margin-top: 0;
     margin-bottom: 40px;
 
     color: var(--primary-white-color);
@@ -37,7 +36,6 @@
 }
 
 .section-title {
-    margin-top: 0;
     margin-bottom: 50px;
 
     font-weight: bold;
@@ -48,6 +46,8 @@
 }
 
 .section-subtitle {
+    margin-bottom: 10px;
+
     font-weight: bold;
     font-size: 14px;
     line-height: 1.1;
@@ -62,7 +62,14 @@
     letter-spacing: 0.03em;
 }
 
+.img-margin {
+    margin-bottom: 30px;
+}
+
 .working {
+    padding: 27px 0;
+    margin-bottom: 0;
+
     color: var(--primary-white-color);
     background-color: var(--bacground-three-color);
     text-align: center;

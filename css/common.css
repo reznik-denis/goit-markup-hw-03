@@ -9,6 +9,7 @@
     --bacground-color: #E5E5E5;
     --bacground-second-color: #F5F4FA;
     --footer-bacground-color: #2F303A;
+    --border-bottom-color: #ECECEC;
 }
 
 body {
@@ -54,8 +55,19 @@ img {
     text-decoration: none;
 }
 
+.header {
+    border-bottom: 1px solid var(--border-bottom-color);
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
 /* Шапка сайта */
 .logo {
+    margin-right: 80px;
+
     color: var(--primary-text-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -64,10 +76,16 @@ img {
 }
 
 .site-nav {
+    display: flex;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+}
+
+.contacts-main {
+    display: flex;
 }
 
 .logo:hover, .logo:focus {
@@ -83,8 +101,16 @@ img {
 }
 
 .site-nav .link {
+    display: block;
+    padding: 32px 5px;
+
     color: var(--primary-text-color);
 }
+
+.site-nav .item:not(:last-child) {
+    margin-right: 40px;
+}
+
 
 .site-nav .link:hover, .site-nav .link:focus {
     color: var(--accent-color);
@@ -98,8 +124,20 @@ img {
     color: var(--primary-text-color);
 }
 
-.site-nav .link-contact {
+.site-nav .contacts-main .link-contact {
+    display: block;
+    padding: 32px 0;
+    margin-left: 10px;
+
     color: var(--text-color);
+}
+
+.site-contacts {
+    margin-left: auto;
+}
+
+.site-nav .contacts-main:not(:last-child) {
+    margin-right: 30px;
 }
 
 .site-nav .link-contact:hover, .site-nav .link-contact:focus {

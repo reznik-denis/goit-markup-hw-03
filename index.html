@@ -12,32 +12,30 @@
   <body>
     <!-- Шапка сайта -->
     <header class="header">
-      <nav class="container">
+      <nav class="container main-nav">
         <a class="link logo" href="./index.html"><span class="logo-accent">Web</span> Studio</a>
         <ul class="list site-nav">
-          <li>
+          <li class="item">
             <a class="link current" href="./index.html">Студия</a>
           </li>
-          <li>
+          <li class="item">
             <a class="link" href="./portfolio.html">Портфолио</a>
           </li>
-          <li>
+          <li class="item">
             <a class="link" href="#">Контакты</a>
           </li>
         </ul>
-      </nav>
-      <div class="container">
-        <ul class="list site-nav">
-          <li>
+        <ul class="list site-nav site-contacts">
+          <li class="contacts-main">
             <img src="./images/mail.svg" alt="mail" />
             <a  class="link-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li>
+          <li class="contacts-main">
             <img src="./images/telefone.svg" alt="Telefone" />
             <a class="link-contact" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </div>
+      </nav>
     </header>
     <main>
       <!-- Герой -->
@@ -51,8 +49,8 @@
       <section class="section no-padding">
         <div class="container">
           <h2 class="section-title">Преимущества</h2>
-          <ul class="list">
-            <li>
+          <ul class="list advantages">
+            <li class="item">
               <a href="#"><img class="img-margin" src="./images/antenna1.svg" alt="Антенна" /></a>
               <h3 class="section-subtitle">Внимание к деталям</h3>
               <p class="section-text">
@@ -60,7 +58,7 @@
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="item">
               <a href="#"><img class="img-margin" src="./images/clock.svg" alt="Часы" /></a>
               <h3 class="section-subtitle">Пунктуальность</h3>
               <p class="section-text">
@@ -68,7 +66,7 @@
                 влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="item">
               <a href="#"><img class="img-margin" src="./images/diagram.svg" alt="Компьютер" /></a>
               <h3 class="section-subtitle">Планирование</h3>
               <p class="section-text">
@@ -76,7 +74,7 @@
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="item">
               <a href="#"><img class="img-margin" src="./images/astronaut.svg" alt="Астронавт" /></a>
               <h3 class="section-subtitle">Современные технологии</h3>
               <p class="section-text">
@@ -91,16 +89,16 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
-          <ul class="list">
-            <li>
+          <ul class="list doing">
+            <li class="item">
               <a href="#"><img src="./images/box1.jpg" alt="Десктопные приложения" width="380" height="294" /></a>
               <h3 class="section-subtitle working">Десктопные приложения</h3>
             </li>
-            <li>
+            <li class="item">
               <a href="#"><img src="./images/box2.jpg" alt="Мобильные приложения" width="380" height="294" /></a>
               <h3 class="section-subtitle working">Мобильные приложения</h3>
             </li>
-            <li>
+            <li class="item">
               <a href="#"><img src="./images/box3.jpg" alt="Дизайнерские решения" width="380" height="294" /></a>
               <h3 class="section-subtitle working">Дизайнерские решения</h3>
             </li>
@@ -108,83 +106,83 @@
         </div>
       </section>
       <!-- Наша команда -->
-      <section class="section">
+      <section class="section section-bacground">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul class="list">
-            <li>
+          <ul class="list our-team">
+            <li class="item">
               <img class="img-margin" src="./images/JohnSmith.jpg" alt="John Smith" width="278" height="260"/>
               <h3 class="comand" lang="en">John Smith</h3>
               <p class="comand-text" lang="en">Product Designer</p>
-              <ul class="list">
-                <li>
-                  <a href="https://www.instagram.com/"><img src="./images/instagram.svg" alt="Инстаграм" /></a>
+              <ul class="list img-social">
+                <li class="item">
+                  <a href="https://www.instagram.com/"><img class="img-size" src="./images/instagram.svg" alt="Инстаграм" /></a>
                 </li>
-                <li>
-                  <a href="https://twitter.com/"><img src="./images/twitter.svg" alt="Твиттер" /></a>
+                <li class="item">
+                  <a href="https://twitter.com/"><img class="img-size" src="./images/twitter.svg" alt="Твиттер" /></a>
                 </li>
-                <li>
-                  <a href="https://www.facebook.com/"><img src="./images/facebook.svg" alt="Фейсбук" /></a>
+                <li class="item">
+                  <a href="https://www.facebook.com/"><img class="img-size" src="./images/facebook.svg" alt="Фейсбук" /></a>
                 </li>
-                <li>
-                  <a href="https://www.linkedin.com/"><img src="./images/linkedin.svg" alt="Линкедин" /></a>
+                <li class="item">
+                  <a href="https://www.linkedin.com/"><img class="img-size" src="./images/linkedin.svg" alt="Линкедин" /></a>
                 </li>
               </ul>
             </li>
-            <li>
+            <li class="item">
               <img class="img-margin" src="./images/MartaStewart.jpg" alt="Marta Stewart" width="278" height="260" />
               <h3 class="comand" lang="en">Marta Stewart</h3>
               <p class="comand-text" lang="en">Frontend Developer</p>
-              <ul class="list">
-                <li>
-                  <a href="https://www.instagram.com/"><img src="./images/instagram.svg" alt="Инстаграм" /></a>
+              <ul class="list img-social">
+                <li class="item">
+                  <a href="https://www.instagram.com/"><img class="img-size" src="./images/instagram.svg" alt="Инстаграм" /></a>
                 </li>
-                <li>
-                  <a href="https://twitter.com/"><img src="./images/twitter.svg" alt="Твиттер" /></a>
+                <li class="item">
+                  <a href="https://twitter.com/"><img class="img-size" src="./images/twitter.svg" alt="Твиттер" /></a>
                 </li>
-                <li>
-                  <a href="https://www.facebook.com/"><img src="./images/facebook.svg" alt="Фейсбук" /></a>
+                <li class="item">
+                  <a href="https://www.facebook.com/"><img class="img-size" src="./images/facebook.svg" alt="Фейсбук" /></a>
                 </li>
-                <li>
-                  <a href="https://www.linkedin.com/"><img src="./images/linkedin.svg" alt="Линкедин" /></a>
+                <li class="item">
+                  <a href="https://www.linkedin.com/"><img class="img-size" src="./images/linkedin.svg" alt="Линкедин" /></a>
                 </li>
               </ul>
             </li>
-            <li>
+            <li class="item">
               <img class="img-margin" src="./images/RobertJakis.jpg" alt="Robert Jakis" width="278" height="260" />
               <h3 class="comand" lang="en">Robert Jakis</h3>
               <p class="comand-text" lang="en">Marketing</p>
-              <ul class="list">
-                <li>
-                  <a href="https://www.instagram.com/"><img src="./images/instagram.svg" alt="Инстаграм" /></a>
+              <ul class="list img-social">
+                <li class="item">
+                  <a href="https://www.instagram.com/"><img class="img-size" src="./images/instagram.svg" alt="Инстаграм" /></a>
                 </li>
-                <li>
-                  <a href="https://twitter.com/"><img src="./images/twitter.svg" alt="Твиттер" /></a>
+                <li class="item">
+                  <a href="https://twitter.com/"><img class="img-size" src="./images/twitter.svg" alt="Твиттер" /></a>
                 </li>
-                <li>
-                  <a href="https://www.facebook.com/"><img src="./images/facebook.svg" alt="Фейсбук" /></a>
+                <li class="item">
+                  <a href="https://www.facebook.com/"><img class="img-size" src="./images/facebook.svg" alt="Фейсбук" /></a>
                 </li>
-                <li>
-                  <a href="https://www.linkedin.com/"><img src="./images/linkedin.svg" alt="Линкедин" /></a>
+                <li class="item">
+                  <a href="https://www.linkedin.com/"><img class="img-size" src="./images/linkedin.svg" alt="Линкедин" /></a>
                 </li>
               </ul>
             </li>
-            <li>
+            <li class="item">
               <img class="img-margin" src="./images/MartinDoe.jpg" alt="Martin Doe" width="278" height="260" />
               <h3 class="comand" lang="en">Martin Doe</h3>
               <p class="comand-text" lang="en">UI Designer</p>
-              <ul class="list">
-                <li>
-                  <a href="https://www.instagram.com/"><img src="./images/instagram.svg" alt="Инстаграм" /></a>
+              <ul class="list img-social">
+                <li class="item">
+                  <a href="https://www.instagram.com/"><img class="img-size" src="./images/instagram.svg" alt="Инстаграм" /></a>
                 </li>
-                <li>
-                  <a href="https://twitter.com/"><img src="./images/twitter.svg" alt="Твиттер" /></a>
+                <li class="item">
+                  <a href="https://twitter.com/"><img class="img-size" src="./images/twitter.svg" alt="Твиттер" /></a>
                 </li>
-                <li>
-                  <a href="https://www.facebook.com/"><img src="./images/facebook.svg" alt="Фейсбук" /></a>
+                <li class="item">
+                  <a href="https://www.facebook.com/"><img class="img-size" src="./images/facebook.svg" alt="Фейсбук" /></a>
                 </li>
-                <li>
-                  <a href="https://www.linkedin.com/"><img src="./images/linkedin.svg" alt="Линкедин" /></a>
+                <li class="item">
+                  <a href="https://www.linkedin.com/"><img class="img-size" src="./images/linkedin.svg" alt="Линкедин" /></a>
                 </li>
               </ul>
             </li>
@@ -195,24 +193,24 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">Постоянные клиенты</h2>
-          <ul class="list">
-            <li>
-              <a href="#"><img src="./images/YACO.svg" alt="YA & CO" /></a>
+          <ul class="list customers">
+            <li class="item">
+              <a href="#"><img class="img-customers" src="./images/YACO.svg" alt="YA & CO" /></a>
             </li>
-            <li>
-              <a href="#"><img src="./images/TaglineHero.svg" alt="Tagline Hero" /></a>
+            <li class="item">
+              <a href="#"><img class="img-customers" src="./images/TaglineHero.svg" alt="Tagline Hero" /></a>
             </li>
-            <li>
-              <a href="#"><img src="./images/COMPANY.svg" alt="COMPANY" /></a>
+            <li class="item">
+              <a href="#"><img class="img-customers" src="./images/COMPANY.svg" alt="COMPANY" /></a>
             </li>
-            <li>
-              <a href="#"><img src="./images/FOSTERPETERS.svg" alt="FOSTER PETERS" /></a>
+            <li class="item">
+              <a href="#"><img class="img-customers" src="./images/FOSTERPETERS.svg" alt="FOSTER PETERS" /></a>
             </li>
-            <li>
-              <a href="#"><img src="./images/BRAND.svg" alt="BRAND" /></a>
+            <li class="item">
+              <a href="#"><img class="img-customers" src="./images/BRAND.svg" alt="BRAND" /></a>
             </li>
-            <li>
-              <a href="#"><img src="./images/COMPANYTAGLINE.svg" alt="COMPANY TAG LIN" /></a>
+            <li class="item">
+              <a href="#"><img class="img-customers" src="./images/COMPANYTAGLINE.svg" alt="COMPANY TAG LIN" /></a>
             </li>
           </ul>
         </div>

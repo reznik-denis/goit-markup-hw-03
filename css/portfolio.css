@@ -1,0 +1,38 @@
+.section-buttom {
+    color: var(--primary-text-color);
+    background-color: var(--bacground-second-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.section-buttom:hover, .section-buttom:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.sectiion-title {
+    color: var(--primary-text-color);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.section-subtitle {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
+
+.section-description {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}

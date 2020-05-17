@@ -1,13 +1,18 @@
+.hero {
+    text-align: center;
+}
+
 .hero .hero-title {
+    margin-top: 0;
+    margin-bottom: 40px;
+
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
 }
 
 .hero .link.buttom {
@@ -32,6 +37,9 @@
 }
 
 .section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+
     font-weight: bold;
     font-size: 36px;
     line-height: 1.2;

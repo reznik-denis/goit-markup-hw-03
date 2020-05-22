@@ -42,10 +42,6 @@ img {
     text-align: center;
 }
 
-.no-padding {
-    padding-bottom: 0;
-}
-
 .list {
     padding: 0;
     margin: 0;
@@ -190,7 +186,7 @@ img {
 }
 
 .footer-link .footer-link-contact {
-     margin-bottom: 9px;
+    margin-bottom: 9px;
 
     color: var(--footer-three-text-color);
     background-color: var(--footer-bacground-color);
@@ -238,7 +234,7 @@ img {
 
 .footer-colums {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 .footer-colums .item:not(:last-child) {

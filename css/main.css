@@ -3,7 +3,7 @@
 }
 
 .hero .hero-title {
-    margin-bottom: 40px;
+    margin-bottom: 46px;
 
     color: var(--primary-white-color);
     background-color: var(--accent-color);
@@ -80,6 +80,10 @@
     letter-spacing: 0.03em;
 }
 
+.advantages-icon {
+
+}
+
 .img-margin {
     margin-bottom: 30px;
 }
@@ -148,16 +152,17 @@
 
 .img-social {
     display: flex;
-    padding: 0 36px 24px 35px;
+    justify-content: space-between;
+    padding: 0 31px 21px 32px;
 }
 
 .img-size {
     padding: 12px;
 }
 
-.img-social .item {
+/* .img-social .icon {
     justify-content: center;
-}
+} */
 
 .section-bacground {
     background-color: var(--bacground-second-color);
